@@ -1,0 +1,77 @@
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-link:hover {
+    background-color: #f0f0f0; 
+}
+
+.nav-item {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.btn-outline-success {
+    border-color: #007BFF; 
+    color: #007BFF; 
+}
+
+.btn-outline-success:hover {
+    background-color: #007BFF; 
+    border-color: #0056b3; 
+    color: #FFFFFF; 
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+}
+
+.card {
+    height: 500px; 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.btn-primary {
+    align-self: center;
+    margin-top: auto;
+}
+
+.card-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3; 
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3; 
+}
+
