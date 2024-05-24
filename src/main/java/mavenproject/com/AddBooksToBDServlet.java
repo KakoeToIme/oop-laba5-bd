@@ -18,7 +18,7 @@ public class AddBooksToBDServlet extends HttpServlet {
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/oop-website";
     private static final String USER = "root";
-    private static final String PASSWORD = "HybridsN11";
+    private static final String PASSWORD = " ";
 
     @Override
     public void init() throws ServletException {
